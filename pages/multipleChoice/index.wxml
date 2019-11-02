@@ -1,0 +1,56 @@
+<!--pages/analysis/index.wxml-->
+<view class="container_entirety">
+  <view class="mdui-m-t-2">{{questionText}}</view>
+  <view class="flex-column">
+    <view class="flex-row{{chooseFlgA?'-choosed':''}}" bindtap='chooseA'>
+      <view class="icon-display">
+        A
+      </view>
+      <view class="icon-display">
+        <text>{{opitionTextA}}</text>
+      </view>
+    </view>
+    <view class="flex-column">
+      <view class="flex-row{{chooseFlgB?'-choosed':''}}" bindtap='chooseB'>
+        <view class="icon-display">
+          B
+        </view>
+        <view class="icon-display">
+          <text>{{opitionTextB}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="flex-column">
+      <view class="flex-row{{chooseFlgC?'-choosed':''}}" bindtap='chooseC'>
+        <view class="icon-display">
+          C
+        </view>
+        <view class="icon-display">
+          <text>{{opitionTextC}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="flex-column">
+      <view class="flex-row{{chooseFlgD?'-choosed':''}}" bindtap='chooseD'>
+        <view class="icon-display">
+          D
+        </view>
+        <view class="icon-display">
+          <text>{{opitionTextD}}</text>
+        </view>
+      </view>
+    </view>
+
+    <button bindtap="previous">
+      <view>上一题</view>
+    </button>
+    <button bindtap="next">
+      <view>下一题</view>
+    </button>
+    <button bindtap="checkAnswer" class="btn1btnative">
+      <view>对答案</view>
+    </button>
+    <view>{{firstLastText}}</view>
+    <view>{{text}}</view>
+  </view>
+</view>

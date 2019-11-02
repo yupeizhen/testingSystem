@@ -1,0 +1,19 @@
+<!--pages/bookCatalogue/index.wxml-->
+<view class="container_entirety">
+  <view class="flex-row">
+    <view class="book-left-display" bindtap="functionLink">
+      Book One 
+    </view>
+    <view class="book-display">
+      Book Two
+    </view>
+  </view>
+  <view class="flex-row">
+    <view class="book-left-display">
+      Book Three
+    </view>
+    <view class="book-display">
+      Book Four
+    </view>
+  </view>
+</view>

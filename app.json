@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/analysis/index",
+    "pages/multipleChoice/index",
+    "pages/bookCatalogue/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

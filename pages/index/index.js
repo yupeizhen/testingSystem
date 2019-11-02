@@ -86,7 +86,9 @@ Page({
 
   goSign() {
     wx.reLaunch({
-      url: '/pages/select/index',
+      url: '/pages/bookCatalogue/index'
+      // url: '/pages/analysis/index',
+      // url: '/pages/multipleChoice/index',
     })
   }
 })
